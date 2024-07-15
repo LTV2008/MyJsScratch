@@ -191,9 +191,7 @@
         var start = document.createElement('div');
         start.setAttribute('class', 'button start');
         header.appendChild(start);
-
-        var turbo = null
-        
+                
         container.appendChild(header);
         
         var subcon = document.createElement('div');
