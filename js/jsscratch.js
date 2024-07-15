@@ -181,7 +181,7 @@
         
         var title = document.createElement('span');
         title.setAttribute('class', 'title');
-        title.innerHTML = ' ';
+        title.innerHTML = 'JsScratch';
         header.appendChild(title);
         
         var stop = document.createElement('div');
@@ -191,7 +191,12 @@
         var start = document.createElement('div');
         start.setAttribute('class', 'button start');
         header.appendChild(start);
-                
+        
+        var turbo = document.createElement('input');
+        turbo.setAttribute('type', 'checkbox');
+        turbo.setAttribute('class', 'button');
+        header.appendChild(turbo);
+        
         container.appendChild(header);
         
         var subcon = document.createElement('div');
@@ -202,7 +207,7 @@
         canvas.setAttribute('width', '480');
         canvas.setAttribute('height', '360');
         canvas.setAttribute('tabindex', '1');
-        canvas.innerHTML = 'Sorry, your browser does not support the <code>canvas</code> tag. Please switch to a compatible browser, such as <a href="http://www.google.com/chrome/">Google Chrome</a>.';
+        canvas.innerHTML = 'Sorry, your browser does not support the <code>canvas</code> tag! <a href="http://www.google.com/chrome/">Get Chrome!</a>';
         subcon.appendChild(canvas);
         
         var progress = document.createElement('div');
