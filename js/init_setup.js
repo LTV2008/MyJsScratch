@@ -4,4 +4,4 @@ var rev = list[0];
 console.log(rev)
 rev.remove()
 };
-setTimeout(setup, 5000);
+setTimeout(setup, 700);
